@@ -18,3 +18,6 @@ backDrop.addEventListener('click', function() {
     menuToggler.click();
     setBackDrop('none');
 })
+
+var artCarousel = $('#article-carousel');
+console.log(artCarousel.carousel('pause'));
